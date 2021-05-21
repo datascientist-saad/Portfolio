@@ -30,9 +30,15 @@
     background-size: cover;
     background-position: right;
   }
-  
+
   .section-github {
-    background: url('bence-boros-ApjcYVl-h-o-unsplash.jpg');
+    background: url('github.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-linkedin {
+    background: url('linkedin1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
