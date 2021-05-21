@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #212529;
+  }
+
+  .logo {
+    width: 30px;
+    border-radius: 100px;
+  }
+
+  nav {
+      align-content: center;
+  }
