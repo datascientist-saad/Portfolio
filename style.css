@@ -15,5 +15,24 @@
   }
 
   nav {
-      align-content: center;
+    align-content: center;
+  }
+
+  .section-skills {
+    background: url('bence-boros-ApjcYVl-h-o-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-youtube {
+    background: url('camera-r.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+  
+  .section-github {
+    background: url('bence-boros-ApjcYVl-h-o-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
