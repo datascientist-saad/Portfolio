@@ -1,89 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>M Saad - Developer</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Saad | Full-Stack Python Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" /> -->
 </head>
+
 <body>
-    <nav class="site-header py-1" style="background-color: rgb(20, 20, 20);">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-          <a class="py-2" href="#">
-            <img src="saad.jpeg" class="logo">
-          </a>
-          <a class="py-2 d-none d-md-inline-block" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="red" class="bi bi-house" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-            </svg>
-          </a>
-          <a class="py-2 d-none d-md-inline-block" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="green" class="bi bi-terminal" viewBox="0 0 16 16">
-                <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
-                <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
-            </svg>
-          </a>
-          <a class="py-2 d-none d-md-inline-block" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="blue" class="bi bi-telephone" viewBox="0 0 16 16">
-                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-            </svg>
-          </a>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="images/Saad YT Logo.png" alt="Saad" />
+                    </a>
+                </div>
+                <div class="burger-menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#landing-page">
+                            <img src="images/saad_profile.jpeg" alt="Saad" class="profile-pic nav-link" />
+                            <span class="caption nav-link">Muhammad Saad</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.youtube.com/channel/UCxM8U925OhpTl4B4ZmdqwXA/" target="_blank"
+                            class="nav-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/datascientist-saad" target="_blank" class="nav-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/muhdsaad107/" target="_blank" class="nav-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ms107/" target="_blank" class="nav-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <div class="cta">
+                        <a href="https://www.youtube.com/channel/UCxM8U925OhpTl4B4ZmdqwXA?sub_confirmation=1"
+                            target="_blank" class="btn nav-link">Subscribe</a>
+                    </div>
+                </ul>
+            </nav>
         </div>
-    </nav>
-
+    </header>
     <main>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light text-white section-skills" >
-          <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 fw-normal">Skills</h1>
-            <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-            <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-          </div>
-        </div>
-
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white bg-light section-youtube">
-            <div class="col-md-5 p-lg-5 mx-auto my-5">
-              <h1 class="display-4 fw-normal">YouTube Channel</h1>
-              <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-              <a class="btn btn-outline-secondary" href="https://www.youtube.com/channel/UCxM8U925OhpTl4B4ZmdqwXA/">YouTube</a>
+        <section id="landing-page" class="landing-page">
+            <div class="container">
+                <div class="main-message">
+                    <h2>Muhammad Saad</h2>
+                    <h3>"Full-Stack Python Developer"</h3>
+                    <p>Html/CSS . Python . Django . Cloud</p>
+                    <div class="intro-btn">
+                        <div class="cta">
+                            <a href="#contact" class="btn">Get In Touch</a>
+                        </div>
+                        <div class="cta">
+                            <a href="#projects" class="btn">My Projects</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#about" class="scroll-down">
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white bg-light section-github">
-            <div class="col-md-5 p-lg-5 mx-auto my-5">
-              <h1 class="display-4 fw-normal">GitHub Profile</h1>
-              <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-              <a class="btn btn-outline-secondary" href="https://github.com/datascientist-saad/">GitHub</a>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-img">
+                    <img src="images/saad_profile.jpeg" alt="Saad" class="about-pic" />
+                </div>
+                <div class="about-text-box">
+                    <h2>Hey! 😃💻</h2>
+                    <p>
+                        My name is <strong><i>Muhammad Saad</i></strong> and I am a Full-Stack Python Developer working
+                        on projects related to
+                        python, Cloud (AWS, GCP). I inspire to become a DevOps
+                        Engineer.
+                    </p>
+                    <p>
+                        Lived in Qatar for 18 years and moved to Pakistan for
+                        pursuing Software Engineering at UET TAXILA.
+                        Keen to learn more and implement in life to solve problems
+                        using code.
+                    </p>
+                    <p>
+                        Skills
+                        - Python developer (Scripting, Django)<br>
+                        - Data Science (Numpy, Pandas, scikit-learn)<br>
+                        - Firebase Developer<br>
+                        - Actions on Google<br>
+                        - SQL Database Management<br>
+                        - Linux/Unix<br>
+                        - Flutter development<br>
+                    </p>
+                </div>
             </div>
-        </div>
-
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white bg-light section-linkedin">
-            <div class="col-md-5 p-lg-5 mx-auto my-5">
-              <h1 class="display-4 fw-normal">LinkedIn Profile</h1>
-              <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-              <a class="btn btn-outline-secondary" href="https://www.linkedin.com/in/ms107/">LinkedIn</a>
+            <hr />
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <div class="title-heading">
+                    <h2>SERVICES</h2>
+                    <p>
+                        I can make static websites using HTML/CSS/Bootstrap/Some JavaScript.<br>
+                        I can make dynamic websites using <strong>Django</strong> as Backend.
+                    </p>
+                </div>
+                <div class="service-tiers">
+                    <div class="tier-item">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <h2>Web Development<br>Static and Dyanmic</h2>
+                        <p>
+                            I have built many static and dyanmic websites using: <br>- HTML/CSS<br>- Bootstrap<br>-
+                            Django.
+                            <br>My main focus is always to learn something new and implement for a greater cause.
+                        </p>
+                    </div>
+                    <div class="tier-item">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <h2>Python Scripting<br>and Coding</h2>
+                        <p>
+                            I am working with python for almost 3 years now.<br> I have built many projects ranging from
+                            a calculator to a website.
+                            <br>I have implemented many Data Structures and Algorithms using Python.<br>Django
+                            Development
+                        </p>
+                    </div>
+                    <div class="tier-item">
+                        <i class="fa fa-cloud" aria-hidden="true"></i>
+                        <h2>Cloud Hosting for dyanmic websites</h2>
+                        <p>
+                            Its been a whole year since I started Cloud.<br>
+                            <span style='color: blue'>G</span>
+                            <span style='color: red'>o</span>
+                            <span style='color: yellow'>o</span>
+                            <span style='color: blue'>g</span>
+                            <span style='color: green'>l</span>
+                            <span style='color: red'>e</span>
+                            Developer Student Club at my university helped me transition to cloud. I was made the
+                            Technical Lead for Google Cloud Platform. I conducted workshops related to GCP, Machine
+                            Learning and Actions on Google.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="product-device shadow-sm d-none d-md-block"></div>
-            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-        </div>
-
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white bg-light">
-            <div class="col-md-5 p-lg-5 mx-auto my-5">
-              <h1 class="display-4 fw-normal">Instagram Account</h1>
-              <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-              <a class="btn btn-outline-secondary" href="https://www.instagram.com/muhdsaad107/">Instagram</a>
+            <hr />
+        </section>
+        <section id="projects" class="projects">
+            <div class="title-heading">
+                <h2>PROJECTS</h2>
+                <p>Some recent projects I have done</p>
             </div>
-            <div class="product-device shadow-sm d-none d-md-block"></div>
-            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-        </div>
-      
-       
-      </main>
+            <div class="project-item">
+                <div class="project-img has-margin-right">
+                    <img src="images/rest logo.png" />
+                </div>
+                <div class="project-description">
+                    <h2>Restaurant Management System</h2>
+                    <p>
+                        A system for a restaurant in order to manage its daily work. It has two users: Manager and
+                        Employee.
+                        The Manager has some priviliged features such as: editing menu, adding employees, removing
+                        employees, log checking etc.
+                        The Employee can take orders and book tables for customers.<br>
+                        Built using JavaFx, SQL Database.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-description has-margin-right">
+                    <h2>Hospital Management System</h2>
+                    <p>
+                        A system for a hospital in order to manage its daily work. It has two users: Doctor and Nurse.
+                        The Doctor has some priviliged features such as: , adding nurses, removing nurses, log checking,
+                        patient data etc.
+                        The Nurse can take admit a patient and take its information.<br>
+                        Built using JavaFx, SQL Database.
+                    </p>
+                </div>
+                <div class="project-img">
+                    <img src="images/Hospital Logo.png" />
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img has-margin-right">
+                    <img src="images/python-programming-language.png" />
+                </div>
+                <div class="project-description">
+                    <h2>Python Scripts</h2>
+                    <p>
+                        This is GitHub repository made to code in Python and create scripts. I have created scripts for
+                        Machine Learning, JARVIS.
+                        Some advanced interview questions asked.
+                        Some deep level mathematical algorithms.
+                    </p>
+                    <a href="https://github.com/datascientist-saad/Python" class="project-link" target="_blank"><i
+                            class="fa fa-github" aria-hidden="true"> Repo</i></a>
+                </div>
+            </div>
+            <hr />
+        </section>
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <p>
+                Just do it!
+            </p>
+            <p>
+                <i>
+                    Come on.
+                </i>
+            </p>
+            <div class="container">
+                <p>
+                    <a href="mailto:muhdsaad108=7   @gmail.com"><i class="fas fa-envelope-open"></i>
+                        muhdsaad107@gmail.com</a>
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/channel/UCxM8U925OhpTl4B4ZmdqwXA/" target="_blank"><i
+                            class="fab fa-youtube"> YouTube</i></a>
+                </p>
+                <p>
+                    <a href="https://github.com/datascientist-saad" target="_blank"><i class="fab fa-github">
+                            GitHub</i></a>
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/muhdsaad107/" target="_blank"><i class="fab fa-instagram">
+                            Instagram</i></a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/ms107/" target="_blank"><i class="fab fa-linkedin">
+                            LinkedIn</i></a>
+                </p>
+            </div>
+            <hr />
+        </section>
+        <footer>
+            <div class="footer-nav">
+                <a href="#landing-page" class="footer-nav-link">Home</a>
+                <a href="#about" class="footer-nav-link">About</a>
+                <a href="#services" class="footer-nav-link">Services</a>
+                <a href="projects" class="footer-nav-link">Projects</a>
+                <a href="#contact" class="footer-nav-link">Contact</a>
+            </div>
+            <div class="footer-coded-by">
+                <p>
+                    <i class="fas fa-code"></i> with <button class="heart"><span>💙</span></button> by Muhammad Saad
+                    &copy; 2021
+                </p>
+                <p>Built with pure HTML, CSS and JavaScript</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.youtube.com/channel/UCxM8U925OhpTl4B4ZmdqwXA/" target="_blank"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="https://github.com/datascientist-saad" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/muhdsaad107/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ms107/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </main>
+    <script src="main.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
