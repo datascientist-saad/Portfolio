@@ -306,23 +306,23 @@ nav {
     rgba(24, 158, 211, 0.5) 0%,
     rgba(255, 0, 0, 0.507) 100%
   );
+  background-size: 200%;
+  background-position: left;
+  transition: background-position 400ms;
   border-radius: 2rem;
   color: #fafafa;
   padding: 1rem 2.5rem;
   display: inline-block;
   margin-top: 2rem;
-  transition: background-color 650ms;
+  /* transition: background-color 650ms; */
   font-weight: 800;
   letter-spacing: 2px;
 }
 
 .btn:hover {
   color: #fafafa;
-  background: linear-gradient(
-    to left,
-    rgba(24, 158, 211, 0.5) 0%,
-    rgba(255, 0, 0, 0.507) 100%
-  );
+  background-size: 160%;
+  background-position: right;
 }
 
 .scroll-down i {
