@@ -640,6 +640,9 @@ footer a {
     font-size: 3rem;
     margin-bottom: 20px;
   }
+  .neon-button {
+      font-size: 1rem;
+  }
   .about-text-box p {
     margin: 0 0 2.45rem;
   }
