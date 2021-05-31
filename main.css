@@ -306,7 +306,7 @@ nav {
     rgba(24, 158, 211, 0.5) 0%,
     rgba(255, 0, 0, 0.507) 100%
   );
-  background-size: 200%;
+  background-size: 100%;
   background-position: left;
   transition: background-position 400ms;
   border-radius: 2rem;
