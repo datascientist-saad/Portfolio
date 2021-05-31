@@ -322,7 +322,7 @@ nav {
 .btn:hover {
   color: #fafafa;
   background-size: 160%;
-  background-position: right;
+  background-position: center;
 }
 
 .scroll-down i {
