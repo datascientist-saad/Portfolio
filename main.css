@@ -61,7 +61,7 @@ header {
 
 .container {
     width: 100%;
-    max-width: 90rem;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
@@ -449,7 +449,7 @@ hr {
 
 .projects {
     padding: 3rem 0;
-    min-height: 100vh;
+    min-height: 75vh;
     max-width: 70rem;
     margin: auto;
 }
@@ -499,7 +499,7 @@ hr {
 
 .contact {
     width: 100%;
-    min-height: 100vh;
+    min-height: 75vh;
     max-width: 70rem;
     margin: auto;
     padding-top: 5rem;
@@ -519,11 +519,12 @@ hr {
 }
 
 .contact .container {
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 
 /* Footer */
 
@@ -1034,7 +1035,7 @@ skew to change the 'thickness' of the glitch.*/
 	--active-eye: #313036;
 	--active-tear: #76b5e7;
 	--active-shadow-angry: #e94f1d;
-	margin: 20px 0 0 23px;
+	margin: 25px 0 20px 23px;
 	padding: 0 0 0 0;
 	list-style: none;
 	display: flex;
@@ -1369,4 +1370,117 @@ html {
 
 *:before, *:after {
 	box-sizing: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+
+.accordion .accordion-item {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+	border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+	position: relative;
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding: 1em 0;
+	color: #7288a2;
+	font-size: 1.15rem;
+	font-weight: 400;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.accordion button:hover, .accordion button:focus {
+	cursor: pointer;
+	color: #03b5d2;
+}
+
+.accordion button:hover::after, .accordion button:focus::after {
+	cursor: pointer;
+	color: #03b5d2;
+	border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+	padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+	display: inline-block;
+	position: absolute;
+	top: 18px;
+	right: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid;
+	border-radius: 22px;
+}
+
+.accordion button .icon::before {
+	display: block;
+	position: absolute;
+	content: '';
+	top: 9px;
+	left: 5px;
+	width: 10px;
+	height: 2px;
+	background: currentColor;
+}
+
+.accordion button .icon::after {
+	display: block;
+	position: absolute;
+	content: '';
+	top: 5px;
+	left: 9px;
+	width: 2px;
+	height: 10px;
+	background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+	color: #03b5d2;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+	width: 0;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+	opacity: 1;
+	max-height: 9em;
+	transition: all 200ms linear;
+	will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+	opacity: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: opacity 200ms linear, max-height 200ms linear;
+	will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+	font-size: 1rem;
+	font-weight: 300;
+	margin: 2em 0;
+}
+
+.faq-title {
+    margin-right: 50px;
+    padding: 0;
+}
+
+@media (max-width:400px) {
+    .faq {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
 }
