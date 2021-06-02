@@ -1482,5 +1482,6 @@ html {
     .faq {
         margin-top: 60px;
         margin-bottom: 60px;
+        font-family: "Share Tech Mono", monospace;
     }
 }
