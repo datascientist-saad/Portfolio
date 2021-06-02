@@ -1389,7 +1389,7 @@ html {
 	width: 100%;
 	padding: 1em 0;
 	color: #7288a2;
-	font-size: 1.15rem;
+	font-size: 1.45rem;
 	font-weight: 400;
 	border: none;
 	background: none;
@@ -1468,7 +1468,7 @@ html {
 }
 
 .accordion .accordion-content p {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 300;
 	margin: 2em 0;
 }
