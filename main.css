@@ -48,6 +48,7 @@ img {
     border-radius: 50px;
 }
 
+
 /* header */
 
 header {
@@ -90,29 +91,21 @@ nav {
     width: 15px;
     height: 3px;
     margin: 5px 0;
-    background: linear-gradient(135deg,
-            rgb(228, 26, 26) 0%,
-            rgb(255, 255, 255) 100%);
+    background: linear-gradient(135deg, rgb(228, 26, 26) 0%, rgb(255, 255, 255) 100%);
 }
 
 .line1:hover {
-    background: linear-gradient(135deg,
-            rgb(255, 255, 255) 0%,
-            rgb(228, 26, 26) 100%);
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(228, 26, 26) 100%);
 }
 
 .line2 {
     width: 30px;
     height: 3px;
-    background: linear-gradient(135deg,
-            rgb(228, 26, 26) 0%,
-            rgb(255, 255, 255) 100%);
+    background: linear-gradient(135deg, rgb(228, 26, 26) 0%, rgb(255, 255, 255) 100%);
 }
 
 .line2:hover {
-    background: linear-gradient(135deg,
-            rgb(255, 255, 255) 0%,
-            rgb(228, 26, 26) 100%);
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(228, 26, 26) 100%);
 }
 
 .line3 {
@@ -120,15 +113,11 @@ nav {
     height: 3px;
     margin: 5px 0;
     margin-left: 15px;
-    background: linear-gradient(135deg,
-            rgb(228, 26, 26) 0%,
-            rgb(255, 255, 255) 100%);
+    background: linear-gradient(135deg, rgb(228, 26, 26) 0%, rgb(255, 255, 255) 100%);
 }
 
 .line3:hover {
-    background: linear-gradient(135deg,
-            rgb(255, 255, 255) 0%,
-            rgb(228, 26, 26) 100%);
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(228, 26, 26) 100%);
 }
 
 .burger-menu-icon {
@@ -212,14 +201,15 @@ nav {
         opacity: 0;
         transform: translate(50px);
     }
-
     to {
         opacity: 1;
         transform: translate(0px);
     }
 }
 
+
 /* Landing Page */
+
 .landing-page {
     width: 100%;
     height: 100vh;
@@ -256,7 +246,6 @@ nav {
         width: 0ch;
         color: rgb(255, 0, 0);
     }
-
     100% {
         width: 27ch;
     }
@@ -266,7 +255,6 @@ nav {
     0% {
         border-right: 4px solid rgba(255, 255, 255, 0);
     }
-
     100% {
         border-right: 4px solid rgb(194, 194, 194);
     }
@@ -276,9 +264,7 @@ nav {
     font-size: 4rem;
     margin: 1rem 0;
     color: rgb(24, 158, 211);
-    background: linear-gradient(to right,
-            rgb(24, 158, 211) 0%,
-            rgb(255, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(24, 158, 211) 0%, rgb(255, 0, 0) 100%);
     background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -297,9 +283,7 @@ nav {
 
 .btn {
     margin: 0 9px;
-    background: linear-gradient(to right,
-            rgba(24, 158, 211, 0.5) 0%,
-            rgba(255, 0, 0, 0.507) 100%);
+    background: linear-gradient(to right, rgba(24, 158, 211, 0.5) 0%, rgba(255, 0, 0, 0.507) 100%);
     background-size: 100%;
     background-position: left;
     transition: background-position 400ms;
@@ -329,6 +313,7 @@ nav {
 .scroll-down i:hover {
     color: rgb(255, 0, 0);
 }
+
 
 /* About */
 
@@ -380,12 +365,11 @@ nav {
 
 hr {
     margin: 4rem 0;
-    background: linear-gradient(to right,
-            rgb(24, 158, 211) 0%,
-            rgb(255, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(24, 158, 211) 0%, rgb(255, 0, 0) 100%);
     border: 0;
     height: 1px;
 }
+
 
 /* Services */
 
@@ -439,9 +423,7 @@ hr {
 .tier-item h2 {
     font-size: 2rem;
     margin: 2rem 0;
-    background: linear-gradient(to right,
-            rgb(24, 158, 211) 0%,
-            rgb(255, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(24, 158, 211) 0%, rgb(255, 0, 0) 100%);
     background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -451,6 +433,7 @@ hr {
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
 }
+
 
 /* Projects */
 
@@ -483,9 +466,7 @@ hr {
 .project-description h2 {
     font-size: 2.5rem;
     margin: 2rem 0;
-    background: linear-gradient(to right,
-            rgb(24, 158, 211) 0%,
-            rgb(255, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(24, 158, 211) 0%, rgb(255, 0, 0) 100%);
     background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -500,7 +481,9 @@ hr {
     display: inline-block;
     margin: 2rem 0;
     font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
 }
+
 
 /* Contact */
 
@@ -574,36 +557,31 @@ footer a {
     font-size: 2rem;
 }
 
+
 /* Responsive Design */
 
 @media (max-width: 750px) {
     .main-message h3 {
         font-size: 3rem;
     }
-
     .about .container {
         flex-direction: column;
     }
-
     p {
         font-size: 1.3rem;
     }
-
     .title-heading {
         margin: 0;
     }
-
     .services-tiers {
         gap: 0;
     }
-
     .project-item {
         flex-direction: column;
         align-items: flex-start;
         padding: 2rem;
         box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
     }
-
     .project-img {
         width: 20rem;
     }
@@ -613,51 +591,40 @@ footer a {
     .main-message {
         top: 45%;
     }
-
     .main-message h2 {
         letter-spacing: 1rem;
         font-size: 1.5rem;
         width: 29ch;
     }
-
     .main-message h3 {
         font-size: 2rem;
     }
-
     .main-message p {
         font-size: 1.3rem;
     }
-
     .btn {
         border-radius: 0.9rem;
         padding: 0.9rem 0.9rem;
     }
-
     .about-text-box h2 {
         font-size: 3rem;
         margin-bottom: 20px;
     }
-
     .neon-button {
         font-size: 1rem;
     }
-
     .about-text-box p {
         margin: 0 0 2.45rem;
     }
-
     .title-heading h2 {
         margin-bottom: 2rem;
     }
-
     .title-heading p {
         font-size: 1.3rem;
     }
-
     .contact .container {
         flex-direction: column;
     }
-
     footer,
     footer p {
         font-size: 1.2rem;
@@ -704,111 +671,93 @@ footer a {
     animation: glitch-anim2 1s infinite linear alternate-reverse;
 }
 
+
 /* Creates an animation with 20 steaps. For each step, it calculates 
 a percentage for the specific step. It then generates a random clip
 box to be used for the random glitch effect. Also adds a very subtle
 skew to change the 'thickness' of the glitch.*/
+
 @keyframes glitch-anim {
     0% {
         clip: rect(5px, 9999px, 14px, 0);
         transform: skew(0.48deg);
     }
-
     5% {
         clip: rect(58px, 9999px, 47px, 0);
         transform: skew(0.48deg);
     }
-
     10% {
         clip: rect(53px, 9999px, 46px, 0);
         transform: skew(0.78deg);
     }
-
     15% {
         clip: rect(13px, 9999px, 75px, 0);
         transform: skew(0.52deg);
     }
-
     20% {
         clip: rect(82px, 9999px, 82px, 0);
         transform: skew(0.24deg);
     }
-
     25% {
         clip: rect(63px, 9999px, 28px, 0);
         transform: skew(0.21deg);
     }
-
     30% {
         clip: rect(78px, 9999px, 42px, 0);
         transform: skew(0.93deg);
     }
-
     35% {
         clip: rect(63px, 9999px, 41px, 0);
         transform: skew(0.97deg);
     }
-
     40% {
         clip: rect(2px, 9999px, 13px, 0);
         transform: skew(0.98deg);
     }
-
     45% {
         clip: rect(11px, 9999px, 66px, 0);
         transform: skew(0.97deg);
     }
-
     50% {
         clip: rect(58px, 9999px, 95px, 0);
         transform: skew(0.76deg);
     }
-
     55% {
         clip: rect(60px, 9999px, 97px, 0);
         transform: skew(0.8deg);
     }
-
     60% {
         clip: rect(19px, 9999px, 71px, 0);
         transform: skew(0.93deg);
     }
-
     65% {
         clip: rect(47px, 9999px, 69px, 0);
         transform: skew(0.94deg);
     }
-
     70% {
         clip: rect(4px, 9999px, 59px, 0);
         transform: skew(0.6deg);
     }
-
     75% {
         clip: rect(25px, 9999px, 88px, 0);
         transform: skew(0.62deg);
     }
-
     80% {
         clip: rect(54px, 9999px, 77px, 0);
         transform: skew(0.27deg);
     }
-
     85% {
         clip: rect(63px, 9999px, 62px, 0);
         transform: skew(0.84deg);
     }
-
     90% {
         clip: rect(65px, 9999px, 35px, 0);
         transform: skew(0.19deg);
     }
-
     95% {
         clip: rect(20px, 9999px, 18px, 0);
         transform: skew(0.74deg);
     }
-
     100% {
         clip: rect(25px, 9999px, 57px, 0);
         transform: skew(0.7deg);
@@ -820,102 +769,82 @@ skew to change the 'thickness' of the glitch.*/
         clip: rect(16px, 9999px, 39px, 0);
         transform: skew(0.69deg);
     }
-
     5% {
         clip: rect(18px, 9999px, 43px, 0);
         transform: skew(0.71deg);
     }
-
     10% {
         clip: rect(51px, 9999px, 45px, 0);
         transform: skew(0.96deg);
     }
-
     15% {
         clip: rect(2px, 9999px, 44px, 0);
         transform: skew(0.46deg);
     }
-
     20% {
         clip: rect(81px, 9999px, 41px, 0);
         transform: skew(0.98deg);
     }
-
     25% {
         clip: rect(21px, 9999px, 20px, 0);
         transform: skew(0.79deg);
     }
-
     30% {
         clip: rect(31px, 9999px, 36px, 0);
         transform: skew(0.44deg);
     }
-
     35% {
         clip: rect(19px, 9999px, 65px, 0);
         transform: skew(0.21deg);
     }
-
     40% {
         clip: rect(4px, 9999px, 29px, 0);
         transform: skew(0.49deg);
     }
-
     45% {
         clip: rect(15px, 9999px, 69px, 0);
         transform: skew(0.9deg);
     }
-
     50% {
         clip: rect(46px, 9999px, 96px, 0);
         transform: skew(0.28deg);
     }
-
     55% {
         clip: rect(84px, 9999px, 6px, 0);
         transform: skew(0.24deg);
     }
-
     60% {
         clip: rect(48px, 9999px, 81px, 0);
         transform: skew(0.64deg);
     }
-
     65% {
         clip: rect(95px, 9999px, 4px, 0);
         transform: skew(0.5deg);
     }
-
     70% {
         clip: rect(85px, 9999px, 65px, 0);
         transform: skew(0.25deg);
     }
-
     75% {
         clip: rect(46px, 9999px, 9px, 0);
         transform: skew(0.31deg);
     }
-
     80% {
         clip: rect(22px, 9999px, 22px, 0);
         transform: skew(0.06deg);
     }
-
     85% {
         clip: rect(41px, 9999px, 97px, 0);
         transform: skew(0.91deg);
     }
-
     90% {
         clip: rect(26px, 9999px, 58px, 0);
         transform: skew(0.86deg);
     }
-
     95% {
         clip: rect(9px, 9999px, 59px, 0);
         transform: skew(0.39deg);
     }
-
     100% {
         clip: rect(20px, 9999px, 38px, 0);
         transform: skew(0.62deg);
@@ -926,43 +855,33 @@ skew to change the 'thickness' of the glitch.*/
     0% {
         transform: skew(-4deg);
     }
-
     10% {
         transform: skew(1deg);
     }
-
     20% {
         transform: skew(-1deg);
     }
-
     30% {
         transform: skew(2deg);
     }
-
     40% {
         transform: skew(3deg);
     }
-
     50% {
         transform: skew(-3deg);
     }
-
     60% {
         transform: skew(-2deg);
     }
-
     70% {
         transform: skew(4deg);
     }
-
     80% {
         transform: skew(3deg);
     }
-
     90% {
         transform: skew(1deg);
     }
-
     100% {
         transform: skew(0deg);
     }
@@ -970,7 +889,6 @@ skew to change the 'thickness' of the glitch.*/
 
 .neon-button {
     font-size: 1.7rem;
-
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -980,9 +898,7 @@ skew to change the 'thickness' of the glitch.*/
     border-radius: 0.25em;
     margin-top: 13px;
     text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
-
     box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
-
     position: relative;
 }
 
@@ -995,7 +911,6 @@ skew to change the 'thickness' of the glitch.*/
     left: 0;
     width: 100%;
     height: 100%;
-
     transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
     filter: blur(1em);
     opacity: 0.7;
@@ -1032,450 +947,451 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 .feedback {
-	--normal: #ECEAF3;
-	--normal-shadow: #D9D8E3;
-	--normal-mouth: #9795A4;
-	--normal-eye: #595861;
-	--active: #F8DA69;
-	--active-shadow: #F4B555;
-	--active-mouth: #F05136;
-	--active-eye: #313036;
-	--active-tear: #76b5e7;
-	--active-shadow-angry: #e94f1d;
-	margin: 25px 0 20px 23px;
-	padding: 0 0 0 0;
-	list-style: none;
-	display: flex;
+    --normal: #ECEAF3;
+    --normal-shadow: #D9D8E3;
+    --normal-mouth: #9795A4;
+    --normal-eye: #595861;
+    --active: #F8DA69;
+    --active-shadow: #F4B555;
+    --active-mouth: #F05136;
+    --active-eye: #313036;
+    --active-tear: #76b5e7;
+    --active-shadow-angry: #e94f1d;
+    margin: 25px 0 20px 23px;
+    padding: 0 0 0 0;
+    list-style: none;
+    display: flex;
 }
 
 .feedback li {
-	position: relative;
-	border-radius: 50%;
-	background: var(--sb, var(--normal));
-	box-shadow: inset 3px -3px 4px var(--sh, var(--normal-shadow));
-	transition: background .4s, box-shadow .4s, transform .3s;
-	-webkit-tap-highlight-color: transparent;
+    position: relative;
+    border-radius: 50%;
+    background: var(--sb, var(--normal));
+    box-shadow: inset 3px -3px 4px var(--sh, var(--normal-shadow));
+    transition: background .4s, box-shadow .4s, transform .3s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .feedback li:not(:last-child) {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .feedback li div {
-	width: 40px;
-	height: 40px;
-	position: relative;
-	transform: perspective(240px) translateZ(4px);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform: perspective(240px) translateZ(4px);
 }
 
-.feedback li div svg, .feedback li div:before, .feedback li div:after {
-	display: block;
-	position: absolute;
-	left: var(--l, 9px);
-	top: var(--t, 13px);
-	width: var(--w, 8px);
-	height: var(--h, 2px);
-	transform: rotate(var(--r, 0deg)) scale(var(--sc, 1)) translateZ(0);
+.feedback li div svg,
+.feedback li div:before,
+.feedback li div:after {
+    display: block;
+    position: absolute;
+    left: var(--l, 9px);
+    top: var(--t, 13px);
+    width: var(--w, 8px);
+    height: var(--h, 2px);
+    transform: rotate(var(--r, 0deg)) scale(var(--sc, 1)) translateZ(0);
 }
 
 .feedback li div svg {
-	fill: none;
-	stroke: var(--s);
-	stroke-width: 2px;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	transition: stroke .4s;
+    fill: none;
+    stroke: var(--s);
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke .4s;
 }
 
 .feedback li div svg.eye {
-	--s: var(--e, var(--normal-eye));
-	--t: 17px;
-	--w: 7px;
-	--h: 4px;
+    --s: var(--e, var(--normal-eye));
+    --t: 17px;
+    --w: 7px;
+    --h: 4px;
 }
 
 .feedback li div svg.eye.right {
-	--l: 23px;
+    --l: 23px;
 }
 
 .feedback li div svg.mouth {
-	--s: var(--m, var(--normal-mouth));
-	--l: 11px;
-	--t: 23px;
-	--w: 18px;
-	--h: 7px;
+    --s: var(--m, var(--normal-mouth));
+    --l: 11px;
+    --t: 23px;
+    --w: 18px;
+    --h: 7px;
 }
 
-.feedback li div:before, .feedback li div:after {
-	content: '';
-	z-index: var(--zi, 1);
-	border-radius: var(--br, 1px);
-	background: var(--b, var(--e, var(--normal-eye)));
-	transition: background .4s;
+.feedback li div:before,
+.feedback li div:after {
+    content: '';
+    z-index: var(--zi, 1);
+    border-radius: var(--br, 1px);
+    background: var(--b, var(--e, var(--normal-eye)));
+    transition: background .4s;
 }
 
 .feedback li.angry {
-	--step-1-rx: -24deg;
-	--step-1-ry: 20deg;
-	--step-2-rx: -24deg;
-	--step-2-ry: -20deg;
+    --step-1-rx: -24deg;
+    --step-1-ry: 20deg;
+    --step-2-rx: -24deg;
+    --step-2-ry: -20deg;
 }
 
 .feedback li.angry div:before {
-	--r: 20deg;
+    --r: 20deg;
 }
 
 .feedback li.angry div:after {
-	--l: 23px;
-	--r: -20deg;
+    --l: 23px;
+    --r: -20deg;
 }
 
 .feedback li.angry div svg.eye {
-	stroke-dasharray: 4.55;
-	stroke-dashoffset: 8.15;
+    stroke-dasharray: 4.55;
+    stroke-dashoffset: 8.15;
 }
 
 .feedback li.angry.active {
-	animation: angry 1s linear;
+    animation: angry 1s linear;
 }
 
 .feedback li.angry.active div:before {
-	--middle-y: -2px;
-	--middle-r: 22deg;
-	animation: toggle .8s linear forwards;
+    --middle-y: -2px;
+    --middle-r: 22deg;
+    animation: toggle .8s linear forwards;
 }
 
 .feedback li.angry.active div:after {
-	--middle-y: 1px;
-	--middle-r: -18deg;
-	animation: toggle .8s linear forwards;
+    --middle-y: 1px;
+    --middle-r: -18deg;
+    animation: toggle .8s linear forwards;
 }
 
 .feedback li.sad {
-	--step-1-rx: 20deg;
-	--step-1-ry: -12deg;
-	--step-2-rx: -18deg;
-	--step-2-ry: 14deg;
+    --step-1-rx: 20deg;
+    --step-1-ry: -12deg;
+    --step-2-rx: -18deg;
+    --step-2-ry: 14deg;
 }
 
-.feedback li.sad div:before, .feedback li.sad div:after {
-	--b: var(--active-tear);
-	--sc: 0;
-	--w: 5px;
-	--h: 5px;
-	--t: 15px;
-	--br: 50%;
+.feedback li.sad div:before,
+.feedback li.sad div:after {
+    --b: var(--active-tear);
+    --sc: 0;
+    --w: 5px;
+    --h: 5px;
+    --t: 15px;
+    --br: 50%;
 }
 
 .feedback li.sad div:after {
-	--l: 25px;
+    --l: 25px;
 }
 
 .feedback li.sad div svg.eye {
-	--t: 16px;
+    --t: 16px;
 }
 
 .feedback li.sad div svg.mouth {
-	--t: 24px;
-	stroke-dasharray: 9.5;
-	stroke-dashoffset: 33.25;
+    --t: 24px;
+    stroke-dasharray: 9.5;
+    stroke-dashoffset: 33.25;
 }
 
-.feedback li.sad.active div:before, .feedback li.sad.active div:after {
-	animation: tear .6s linear forwards;
+.feedback li.sad.active div:before,
+.feedback li.sad.active div:after {
+    animation: tear .6s linear forwards;
 }
 
 .feedback li.ok {
-	--step-1-rx: 4deg;
-	--step-1-ry: -22deg;
-	--step-1-rz: 6deg;
-	--step-2-rx: 4deg;
-	--step-2-ry: 22deg;
-	--step-2-rz: -6deg;
+    --step-1-rx: 4deg;
+    --step-1-ry: -22deg;
+    --step-1-rz: 6deg;
+    --step-2-rx: 4deg;
+    --step-2-ry: 22deg;
+    --step-2-rz: -6deg;
 }
 
 .feedback li.ok div:before {
-	--l: 12px;
-	--t: 17px;
-	--h: 4px;
-	--w: 4px;
-	--br: 50%;
-	box-shadow: 12px 0 0 var(--e, var(--normal-eye));
+    --l: 12px;
+    --t: 17px;
+    --h: 4px;
+    --w: 4px;
+    --br: 50%;
+    box-shadow: 12px 0 0 var(--e, var(--normal-eye));
 }
 
 .feedback li.ok div:after {
-	--l: 13px;
-	--t: 26px;
-	--w: 14px;
-	--h: 2px;
-	--br: 1px;
-	--b: var(--m, var(--normal-mouth));
+    --l: 13px;
+    --t: 26px;
+    --w: 14px;
+    --h: 2px;
+    --br: 1px;
+    --b: var(--m, var(--normal-mouth));
 }
 
 .feedback li.ok.active div:before {
-	--middle-s-y: .35;
-	animation: toggle .2s linear forwards;
+    --middle-s-y: .35;
+    animation: toggle .2s linear forwards;
 }
 
 .feedback li.ok.active div:after {
-	--middle-s-x: .5;
-	animation: toggle .7s linear forwards;
+    --middle-s-x: .5;
+    animation: toggle .7s linear forwards;
 }
 
 .feedback li.good {
-	--step-1-rx: -14deg;
-	--step-1-rz: 10deg;
-	--step-2-rx: 10deg;
-	--step-2-rz: -8deg;
+    --step-1-rx: -14deg;
+    --step-1-rz: 10deg;
+    --step-2-rx: 10deg;
+    --step-2-rz: -8deg;
 }
 
 .feedback li.good div:before {
-	--b: var(--m, var(--normal-mouth));
-	--w: 5px;
-	--h: 5px;
-	--br: 50%;
-	--t: 22px;
-	--zi: 0;
-	opacity: .5;
-	box-shadow: 16px 0 0 var(--b);
-	filter: blur(2px);
+    --b: var(--m, var(--normal-mouth));
+    --w: 5px;
+    --h: 5px;
+    --br: 50%;
+    --t: 22px;
+    --zi: 0;
+    opacity: .5;
+    box-shadow: 16px 0 0 var(--b);
+    filter: blur(2px);
 }
 
 .feedback li.good div:after {
-	--sc: 0;
+    --sc: 0;
 }
 
 .feedback li.good div svg.eye {
-	--t: 15px;
-	--sc: -1;
-	stroke-dasharray: 4.55;
-	stroke-dashoffset: 8.15;
+    --t: 15px;
+    --sc: -1;
+    stroke-dasharray: 4.55;
+    stroke-dashoffset: 8.15;
 }
 
 .feedback li.good div svg.mouth {
-	--t: 22px;
-	--sc: -1;
-	stroke-dasharray: 13.3;
-	stroke-dashoffset: 23.75;
+    --t: 22px;
+    --sc: -1;
+    stroke-dasharray: 13.3;
+    stroke-dashoffset: 23.75;
 }
 
 .feedback li.good.active div svg.mouth {
-	--middle-y: 1px;
-	--middle-s: -1;
-	animation: toggle .8s linear forwards;
+    --middle-y: 1px;
+    --middle-s: -1;
+    animation: toggle .8s linear forwards;
 }
 
 .feedback li.happy div {
-	--step-1-rx: 18deg;
-	--step-1-ry: 24deg;
-	--step-2-rx: 18deg;
-	--step-2-ry: -24deg;
+    --step-1-rx: 18deg;
+    --step-1-ry: 24deg;
+    --step-2-rx: 18deg;
+    --step-2-ry: -24deg;
 }
 
 .feedback li.happy div:before {
-	--sc: 0;
+    --sc: 0;
 }
 
 .feedback li.happy div:after {
-	--b: var(--m, var(--normal-mouth));
-	--l: 11px;
-	--t: 23px;
-	--w: 18px;
-	--h: 8px;
-	--br: 0 0 8px 8px;
+    --b: var(--m, var(--normal-mouth));
+    --l: 11px;
+    --t: 23px;
+    --w: 18px;
+    --h: 8px;
+    --br: 0 0 8px 8px;
 }
 
 .feedback li.happy div svg.eye {
-	--t: 14px;
-	--sc: -1;
+    --t: 14px;
+    --sc: -1;
 }
 
 .feedback li.happy.active div:after {
-	--middle-s-x: .95;
-	--middle-s-y: .75;
-	animation: toggle .8s linear forwards;
+    --middle-s-x: .95;
+    --middle-s-y: .75;
+    animation: toggle .8s linear forwards;
 }
 
 .feedback li:not(.active) {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .feedback li:not(.active):active {
-	transform: scale(0.925);
+    transform: scale(0.925);
 }
 
 .feedback li.active {
-	--sb: var(--active);
-	--sh: var(--active-shadow);
-	--m: var(--active-mouth);
-	--e: var(--active-eye);
+    --sb: var(--active);
+    --sh: var(--active-shadow);
+    --m: var(--active-mouth);
+    --e: var(--active-eye);
 }
 
 .feedback li.active div {
-	animation: shake .8s linear forwards;
+    animation: shake .8s linear forwards;
 }
 
 @keyframes shake {
-	30% {
-		transform: perspective(240px) rotateX(var(--step-1-rx, 0deg)) rotateY(var(--step-1-ry, 0deg)) rotateZ(var(--step-1-rz, 0deg)) translateZ(10px);
-	}
-
-	60% {
-		transform: perspective(240px) rotateX(var(--step-2-rx, 0deg)) rotateY(var(--step-2-ry, 0deg)) rotateZ(var(--step-2-rz, 0deg)) translateZ(10px);
-	}
-
-	100% {
-		transform: perspective(240px) translateZ(4px);
-	}
+    30% {
+        transform: perspective(240px) rotateX(var(--step-1-rx, 0deg)) rotateY(var(--step-1-ry, 0deg)) rotateZ(var(--step-1-rz, 0deg)) translateZ(10px);
+    }
+    60% {
+        transform: perspective(240px) rotateX(var(--step-2-rx, 0deg)) rotateY(var(--step-2-ry, 0deg)) rotateZ(var(--step-2-rz, 0deg)) translateZ(10px);
+    }
+    100% {
+        transform: perspective(240px) translateZ(4px);
+    }
 }
 
 @keyframes tear {
-	0% {
-		opacity: 0;
-		transform: translateY(-2px) scale(0) translateZ(0);
-	}
-
-	50% {
-		transform: translateY(12px) scale(0.6, 1.2) translateZ(0);
-	}
-
-	20%,
-  80% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-		transform: translateY(24px) translateX(4px) rotateZ(-30deg) scale(0.7, 1.1) translateZ(0);
-	}
+    0% {
+        opacity: 0;
+        transform: translateY(-2px) scale(0) translateZ(0);
+    }
+    50% {
+        transform: translateY(12px) scale(0.6, 1.2) translateZ(0);
+    }
+    20%,
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(24px) translateX(4px) rotateZ(-30deg) scale(0.7, 1.1) translateZ(0);
+    }
 }
 
 @keyframes toggle {
-	50% {
-		transform: translateY(var(--middle-y, 0)) scale(var(--middle-s-x, var(--middle-s, 1)), var(--middle-s-y, var(--middle-s, 1))) rotate(var(--middle-r, 0deg));
-	}
+    50% {
+        transform: translateY(var(--middle-y, 0)) scale(var(--middle-s-x, var(--middle-s, 1)), var(--middle-s-y, var(--middle-s, 1))) rotate(var(--middle-r, 0deg));
+    }
 }
 
 @keyframes angry {
-	40% {
-		background: var(--active);
-	}
-
-	45% {
-		box-shadow: inset 3px -3px 4px var(--active-shadow), inset 0 8px 10px var(--active-shadow-angry);
-	}
+    40% {
+        background: var(--active);
+    }
+    45% {
+        box-shadow: inset 3px -3px 4px var(--active-shadow), inset 0 8px 10px var(--active-shadow-angry);
+    }
 }
 
 html {
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 * {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
-*:before, *:after {
-	box-sizing: inherit;
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
-
 .accordion .accordion-item {
-	border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .accordion .accordion-item button[aria-expanded='true'] {
-	border-bottom: 1px solid #03b5d2;
+    border-bottom: 1px solid #03b5d2;
 }
 
 .accordion button {
-	position: relative;
-	display: block;
-	text-align: left;
-	width: 100%;
-	padding: 1em 0;
-	color: #7288a2;
-	font-size: 1.45rem;
-	font-weight: 400;
-	border: none;
-	background: none;
-	outline: none;
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.45rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
 }
 
-.accordion button:hover, .accordion button:focus {
-	cursor: pointer;
-	color: #03b5d2;
+.accordion button:hover,
+.accordion button:focus {
+    cursor: pointer;
+    color: #03b5d2;
 }
 
-.accordion button:hover::after, .accordion button:focus::after {
-	cursor: pointer;
-	color: #03b5d2;
-	border: 1px solid #03b5d2;
+.accordion button:hover::after,
+.accordion button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
 }
 
 .accordion button .accordion-title {
-	padding: 1em 1.5em 1em 0;
+    padding: 1em 1.5em 1em 0;
 }
 
 .accordion button .icon {
-	display: inline-block;
-	position: absolute;
-	top: 18px;
-	right: 0;
-	width: 22px;
-	height: 22px;
-	border: 1px solid;
-	border-radius: 22px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
 }
 
 .accordion button .icon::before {
-	display: block;
-	position: absolute;
-	content: '';
-	top: 9px;
-	left: 5px;
-	width: 10px;
-	height: 2px;
-	background: currentColor;
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
 }
 
 .accordion button .icon::after {
-	display: block;
-	position: absolute;
-	content: '';
-	top: 5px;
-	left: 9px;
-	width: 2px;
-	height: 10px;
-	background: currentColor;
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
 }
 
 .accordion button[aria-expanded='true'] {
-	color: #03b5d2;
+    color: #03b5d2;
 }
 
 .accordion button[aria-expanded='true'] .icon::after {
-	width: 0;
+    width: 0;
 }
 
-.accordion button[aria-expanded='true'] + .accordion-content {
-	opacity: 1;
-	max-height: 9em;
-	transition: all 200ms linear;
-	will-change: opacity, max-height;
+.accordion button[aria-expanded='true']+.accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
 }
 
 .accordion .accordion-content {
-	opacity: 0;
-	max-height: 0;
-	overflow: hidden;
-	transition: opacity 200ms linear, max-height 200ms linear;
-	will-change: opacity, max-height;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
 }
 
 .accordion .accordion-content p {
-	font-size: 1.2rem;
-	font-weight: 300;
-	margin: 2em 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 2em 0;
 }
